@@ -1,0 +1,406 @@
+/**
+ * Studio Arche — Portfolio Page Styles
+ * Horizontal scroll gallery, filter tabs, case study, and CTA
+ */
+
+/* ==========================================================================
+   1. PORTFOLIO HERO
+   ========================================================================== */
+.sa-portfolio-hero {
+  padding-top: calc(var(--sa-nav-height) + var(--sa-space-xl));
+  display: flex;
+  align-items: flex-end;
+  min-height: 80vh;
+}
+
+.sa-portfolio-hero__intro {
+  max-width: 680px;
+}
+
+/* ==========================================================================
+   2. FILTER TABS
+   ========================================================================== */
+.sa-portfolio-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.sa-filter-tab {
+  font-family: var(--sa-font-accent);
+  font-size: var(--sa-text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  padding: 0.65rem 1.8rem;
+  border: 1px solid var(--sa-warm-grey);
+  border-radius: 100px;
+  background: transparent;
+  color: var(--sa-slate);
+  cursor: none;
+  transition: all var(--sa-duration-fast) var(--sa-ease-smooth);
+  position: relative;
+  overflow: hidden;
+}
+
+.sa-filter-tab::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--sa-obsidian);
+  border-radius: inherit;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--sa-duration-medium) var(--sa-ease-smooth);
+  z-index: -1;
+}
+
+.sa-filter-tab:hover {
+  border-color: var(--sa-obsidian);
+  color: var(--sa-white);
+}
+
+.sa-filter-tab:hover::before {
+  transform: scaleX(1);
+}
+
+.sa-filter-tab.is-active {
+  background-color: var(--sa-obsidian);
+  border-color: var(--sa-obsidian);
+  color: var(--sa-white);
+}
+
+.sa-filter-tab.is-active::before {
+  transform: scaleX(1);
+}
+
+/* ==========================================================================
+   3. HORIZONTAL SCROLL GALLERY
+   ========================================================================== */
+.sa-horizontal-section {
+  position: relative;
+  height: auto;
+  overflow: visible;
+}
+
+.sa-horizontal-pin {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100vh;
+  will-change: transform;
+  padding: 0 var(--sa-gutter);
+  gap: clamp(2rem, 4vw, 4rem);
+}
+
+/* Individual Slide */
+.sa-horizontal-slide {
+  flex-shrink: 0;
+  position: relative;
+  width: 80vw;
+  max-width: 1100px;
+}
+
+.sa-horizontal-slide__image {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  max-height: 700px;
+  perspective: 1000px;
+}
+
+.sa-horizontal-slide__image .sa-img-wrap {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.sa-horizontal-slide__image .sa-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Project Info Overlay */
+.sa-horizontal-slide__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  background: linear-gradient(
+    to top,
+    rgba(10, 10, 10, 0.85) 0%,
+    rgba(10, 10, 10, 0.4) 60%,
+    transparent 100%
+  );
+  border-radius: 0 0 4px 4px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.sa-horizontal-slide__category {
+  font-family: var(--sa-font-accent);
+  font-size: var(--sa-text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: var(--sa-champagne);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.sa-horizontal-slide__title {
+  font-family: var(--sa-font-display);
+  font-size: var(--sa-text-3xl);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--sa-white);
+  letter-spacing: -0.02em;
+}
+
+.sa-horizontal-slide__meta {
+  font-family: var(--sa-font-body);
+  font-size: var(--sa-text-sm);
+  font-weight: 300;
+  color: var(--sa-warm-grey);
+  margin-top: 0.3rem;
+  display: block;
+}
+
+/* Horizontal Progress Bar */
+.sa-horizontal-progress {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: clamp(120px, 15vw, 200px);
+  height: 2px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 1px;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.4s var(--sa-ease-smooth);
+  pointer-events: none;
+}
+
+.sa-horizontal-progress.is-visible {
+  opacity: 1;
+}
+
+.sa-horizontal-progress__bar {
+  width: 0%;
+  height: 100%;
+  background: var(--sa-champagne);
+  border-radius: inherit;
+  will-change: width;
+  transition: width 0.05s linear;
+}
+
+/* ==========================================================================
+   4. FEATURED CASE STUDY
+   ========================================================================== */
+.sa-case-study {
+  padding-top: var(--sa-space-xl);
+  padding-bottom: var(--sa-space-xl);
+  background-color: var(--sa-cream);
+}
+
+.sa-case-study__hero-img {
+  aspect-ratio: 4 / 3;
+  border-radius: 4px;
+}
+
+.sa-case-study__hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Meta Grid */
+.sa-case-study__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sa-case-study__meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding-bottom: var(--sa-space-sm);
+  border-bottom: 1px solid var(--sa-soft);
+}
+
+.sa-case-study__meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.sa-case-study__meta-label {
+  font-family: var(--sa-font-accent);
+  font-size: var(--sa-text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--sa-champagne);
+}
+
+.sa-case-study__meta-value {
+  font-family: var(--sa-font-display);
+  font-size: var(--sa-text-xl);
+  font-weight: 300;
+  color: var(--sa-obsidian);
+  line-height: 1.3;
+}
+
+/* Gallery images */
+.sa-case-study__gallery .sa-img-wrap {
+  border-radius: 4px;
+}
+
+@media (min-width: 992px) {
+  .sa-case-study__gallery .sa-img-wrap:nth-child(2) {
+    margin-top: clamp(2rem, 6vw, 6rem);
+  }
+}
+
+/* ==========================================================================
+   5. CTA SECTION
+   ========================================================================== */
+.sa-portfolio-cta {
+  padding: var(--sa-space-2xl) 0;
+}
+
+.sa-portfolio-cta .sa-section-heading {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==========================================================================
+   6. RESPONSIVE — TABLET (≤ 991px)
+   ========================================================================== */
+@media (max-width: 991px) {
+  .sa-portfolio-hero {
+    min-height: 60vh;
+  }
+
+  .sa-portfolio-hero__intro {
+    max-width: 100%;
+  }
+
+  /* Case study grid stacks */
+  .sa-case-study__primary {
+    grid-template-columns: 1fr;
+  }
+
+  .sa-case-study__hero-img {
+    aspect-ratio: 16 / 9;
+  }
+
+  .sa-case-study__meta-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sa-case-study__gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
+   7. RESPONSIVE — MOBILE (≤ 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+  .sa-portfolio-hero {
+    min-height: auto;
+    padding-top: calc(var(--sa-nav-height) + var(--sa-space-lg));
+    padding-bottom: var(--sa-space-md);
+  }
+
+  /* Horizontal scroll becomes vertical stack on mobile */
+  .sa-horizontal-section {
+    height: auto !important;
+    overflow: visible;
+  }
+
+  .sa-horizontal-pin {
+    position: relative !important;
+    top: auto !important;
+    flex-direction: column;
+    height: auto;
+    padding: var(--sa-space-md) var(--sa-gutter);
+    gap: var(--sa-space-md);
+    transform: none !important;
+  }
+
+  .sa-horizontal-slide {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .sa-horizontal-slide__image {
+    height: 60vw;
+    max-height: 400px;
+  }
+
+  .sa-horizontal-slide__title {
+    font-size: var(--sa-text-2xl);
+  }
+
+  .sa-horizontal-progress {
+    display: none !important;
+  }
+
+  /* Filter tabs scroll horizontal */
+  .sa-portfolio-filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 0.5rem;
+  }
+
+  .sa-portfolio-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sa-filter-tab {
+    flex-shrink: 0;
+    padding: 0.5rem 1.4rem;
+  }
+
+  /* Case study meta stacks */
+  .sa-case-study__meta-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .sa-portfolio-cta {
+    padding: var(--sa-space-xl) 0;
+  }
+}
+
+/* ==========================================================================
+   8. RESPONSIVE — SMALL MOBILE (≤ 480px)
+   ========================================================================== */
+@media (max-width: 480px) {
+  .sa-horizontal-slide__image {
+    height: 55vw;
+    max-height: 300px;
+  }
+
+  .sa-horizontal-slide__info {
+    padding: 1rem;
+  }
+
+  .sa-horizontal-slide__title {
+    font-size: var(--sa-text-xl);
+  }
+
+  .sa-case-study__meta-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}

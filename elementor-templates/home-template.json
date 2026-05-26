@@ -1,0 +1,351 @@
+{
+  "title": "Studio Arche Home",
+  "type": "page",
+  "content": [
+    {
+      "id": "9a88347e",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#0F0F0F",
+        "background_image": {
+          "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1920&q=80",
+          "id": "",
+          "source": "external"
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#0F0F0F",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.55
+        },
+        "min_height": {
+          "unit": "vh",
+          "size": 100
+        }
+      },
+      "elements": [
+        {
+          "id": "4130af79",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "aa88ba59",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Minimal Architecture & Luxury Interiors",
+                "header_size": "span",
+                "align": "center",
+                "css_classes": "arche-subtitle-caps"
+              },
+              "elements": []
+            },
+            {
+              "id": "2876d8b7",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sculpting Space,<br>Light & Silence.",
+                "header_size": "h1",
+                "align": "center",
+                "css_classes": "arche-reveal-text"
+              },
+              "elements": []
+            },
+            {
+              "id": "62768b10",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "\n<div style=\"display: flex; gap: 20px; justify-content: center; margin-top: 2.5rem;\">\n    <a href=\"/portfolio\" class=\"arche-btn-outline\" style=\"color: #FFFFFF; border-color: #FFFFFF;\">Explore Works</a>\n    <a href=\"/contact\" class=\"arche-btn-underline\" style=\"color: #FFFFFF;\">Get in Touch</a>\n</div>\n"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "df552128",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding"
+      },
+      "elements": [
+        {
+          "id": "276dcbcc",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 55
+            }
+          },
+          "elements": [
+            {
+              "id": "9036ec47",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "01 / Design Philosophy",
+                "header_size": "span",
+                "align": "left",
+                "css_classes": "arche-subtitle-caps"
+              },
+              "elements": []
+            },
+            {
+              "id": "428aa32e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "We design spaces that breathe, speaking in details rather than noise.",
+                "header_size": "h2",
+                "align": "left",
+                "css_classes": "arche-reveal-text"
+              },
+              "elements": []
+            },
+            {
+              "id": "c84f0b27",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "At Studio Arche, we believe that luxury lies in restraint. By balancing monolithic forms with natural materials and architectural lighting, we construct physical frames for silence and peace.",
+                "css_classes": "arche-lead arche-reveal-text"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "e2a0316d",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "width": {
+              "unit": "%",
+              "size": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "732f76f9",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "\n<div class=\"arche-stats-grid\" style=\"margin-top: 2rem;\">\n    <div class=\"arche-stat-card\">\n        <div class=\"arche-stat-number\"><span class=\"accent\">12</span></div>\n        <div class=\"arche-stat-label\">Years Expertise</div>\n    </div>\n    <div class=\"arche-stat-card\">\n        <div class=\"arche-stat-number\"><span class=\"accent\">140</span>+</div>\n        <div class=\"arche-stat-label\">Luxury Projects</div>\n    </div>\n</div>\n<div class=\"arche-stats-grid\" style=\"border-top: none;\">\n    <div class=\"arche-stat-card\">\n        <div class=\"arche-stat-number\"><span class=\"accent\">26</span></div>\n        <div class=\"arche-stat-label\">Design Awards</div>\n    </div>\n    <div class=\"arche-stat-card\">\n        <div class=\"arche-stat-number\"><span class=\"accent\">100</span>%</div>\n        <div class=\"arche-stat-label\">Bespoke Detail</div>\n    </div>\n</div>\n"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a5e0a6c",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding"
+      },
+      "elements": [
+        {
+          "id": "a0f2e039",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "02 / Spatial Transformations",
+            "header_size": "span",
+            "align": "center",
+            "css_classes": "arche-subtitle-caps"
+          },
+          "elements": []
+        },
+        {
+          "id": "53dba8ed",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "\n<div class=\"arche-before-after-container\" id=\"arche-slider-1\" style=\"max-width: 1100px; margin: 0 auto;\">\n    <div class=\"arche-ba-image arche-ba-after\" id=\"ba-after-img\" style=\"background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80');\">\n        <div class=\"arche-ba-label arche-ba-after-label\">After: Atelier Penthouse</div>\n    </div>\n    <div class=\"arche-ba-image arche-ba-before\" style=\"background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1600&q=80');\">\n        <div class=\"arche-ba-label arche-ba-before-label\">Before: Skeletal Concrete</div>\n    </div>\n    <div class=\"arche-ba-handle\" id=\"ba-handle\">\n        <div class=\"arche-ba-handle-circle\">\u2551</div>\n    </div>\n</div>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n    const container = document.getElementById(\"arche-slider-1\");\n    const afterImage = document.getElementById(\"ba-after-img\");\n    const handle = document.getElementById(\"ba-handle\");\n    let isDragging = false;\n\n    function moveSlider(x) {\n        const rect = container.getBoundingClientRect();\n        let position = ((x - rect.left) / rect.width) * 100;\n        if (position < 0) position = 0;\n        if (position > 100) position = 100;\n        afterImage.style.clipPath = `polygon(0 0, ${position}% 0, ${position}% 100%, 0 100%)`;\n        handle.style.left = `${position}%`;\n    }\n\n    container.addEventListener(\"mousedown\", (e) => {\n        isDragging = true;\n        moveSlider(e.clientX);\n    });\n    window.addEventListener(\"mouseup\", () => isDragging = False);\n    window.addEventListener(\"mousemove\", (e) => { if (isDragging) moveSlider(e.clientX); });\n\n    container.addEventListener(\"touchstart\", (e) => {\n        isDragging = true;\n        moveSlider(e.touches[0].clientX);\n    });\n    window.addEventListener(\"touchend\", () => isDragging = False);\n    window.addEventListener(\"touchmove\", (e) => { if (isDragging) moveSlider(e.touches[0].clientX); });\n});\n</script>\n"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "65061bc8",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding"
+      },
+      "elements": [
+        {
+          "id": "bb4b2733",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "03 / Curated Index",
+            "header_size": "span",
+            "align": "center",
+            "css_classes": "arche-subtitle-caps"
+          },
+          "elements": []
+        },
+        {
+          "id": "72da78f0",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "\n<div class=\"arche-grid-container\">\n    <div class=\"arche-grid-col-7\">\n        <div class=\"arche-image-wrapper\" style=\"aspect-ratio: 16/10;\">\n            <img src=\"https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80\" alt=\"Villa Noir\">\n        </div>\n        <div style=\"margin-top: 1.5rem;\">\n            <span class=\"arche-subtitle-caps\" style=\"font-size: 0.65rem; margin-bottom: 0.5rem;\">Residential \u2014 2025</span>\n            <h3 style=\"font-size: 2rem; margin-bottom: 0.5rem;\">Villa Noir, Switzerland</h3>\n            <a href=\"/portfolio\" class=\"arche-btn-underline\">View Project</a>\n        </div>\n    </div>\n    <div class=\"arche-grid-col-5 arche-offset-top\">\n        <div class=\"arche-image-wrapper\" style=\"aspect-ratio: 3/4;\">\n            <img src=\"https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80\" alt=\"Atelier Alabaster\">\n        </div>\n        <div style=\"margin-top: 1.5rem;\">\n            <span class=\"arche-subtitle-caps\" style=\"font-size: 0.65rem; margin-bottom: 0.5rem;\">Bespoke Interior \u2014 2026</span>\n            <h3 style=\"font-size: 2rem; margin-bottom: 0.5rem;\">Atelier Alabaster</h3>\n            <a href=\"/portfolio\" class=\"arche-btn-underline\">View Project</a>\n        </div>\n    </div>\n</div>\n"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "9596592d",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding arche-dark-section"
+      },
+      "elements": [
+        {
+          "id": "ecc41f04",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "44a03710",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "04 / Our Method",
+                "header_size": "span",
+                "align": "left",
+                "css_classes": "arche-subtitle-caps"
+              },
+              "elements": []
+            },
+            {
+              "id": "82e35234",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "A structured journey toward silence.",
+                "header_size": "h2",
+                "align": "left",
+                "css_classes": "arche-reveal-text"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "e81d86bc",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "width": {
+              "unit": "%",
+              "size": 55
+            }
+          },
+          "elements": [
+            {
+              "id": "a38ad4d6",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "\n<div class=\"arche-process-wrap\">\n    <div class=\"arche-process-item\">\n        <div class=\"arche-process-step\"></div>\n        <span class=\"arche-process-number\">Phase 01</span>\n        <h3 style=\"color: #FFFFFF; font-size: 1.6rem; margin: 0 0 0.5rem 0;\">Spatial Resonance & Anatomy</h3>\n        <p style=\"color: #8E8C87; margin: 0;\">We analyze light angles, raw concrete dimensions, and acoustics to define the design constraints of your volume.</p>\n    </div>\n    <div class=\"arche-process-item\">\n        <div class=\"arche-process-step\"></div>\n        <span class=\"arche-process-number\">Phase 02</span>\n        <h3 style=\"color: #FFFFFF; font-size: 1.6rem; margin: 0 0 0.5rem 0;\">Materiality & Palette Curation</h3>\n        <p style=\"color: #8E8C87; margin: 0;\">Sourcing tactile specimens\u2014calacatta marble, brushed bronze, raw oak, and hand-woven boucl\u00e9 textiles.</p>\n    </div>\n    <div class=\"arche-process-item\">\n        <div class=\"arche-process-step\"></div>\n        <span class=\"arche-process-number\">Phase 03</span>\n        <h3 style=\"color: #FFFFFF; font-size: 1.6rem; margin: 0 0 0.5rem 0;\">Sartorial Realization</h3>\n        <p style=\"color: #8E8C87; margin: 0;\">Physical execution, artisan assembly, and spatial curation, resulting in your premium finished sanctuary.</p>\n    </div>\n</div>\n"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10386fab",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "css_classes": "arche-section-padding arche-dark-section"
+      },
+      "elements": [
+        {
+          "id": "6c907a2b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Let us carve your sanctuary.",
+            "header_size": "h2",
+            "align": "center",
+            "css_classes": "arche-reveal-text"
+          },
+          "elements": []
+        },
+        {
+          "id": "5619909c",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "\n<div style=\"display: flex; justify-content: center; margin-top: 2rem;\">\n    <a href=\"/contact\" class=\"arche-btn-outline\" style=\"color: #FFFFFF; border-color: #EAE3D8; padding: 1.2rem 3rem;\">Initiate Commission</a>\n</div>\n"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

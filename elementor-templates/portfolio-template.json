@@ -1,0 +1,139 @@
+{
+  "title": "Studio Arche Portfolio",
+  "type": "page",
+  "content": [
+    {
+      "id": "3f3bebdc",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding"
+      },
+      "elements": [
+        {
+          "id": "9ccbd616",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 55
+            }
+          },
+          "elements": [
+            {
+              "id": "3429c41b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "03 / Works Index",
+                "header_size": "span",
+                "align": "left",
+                "css_classes": "arche-subtitle-caps"
+              },
+              "elements": []
+            },
+            {
+              "id": "f84afdb5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Built Monuments of Space & Quietude.",
+                "header_size": "h1",
+                "align": "left",
+                "css_classes": "arche-reveal-text"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "8d1922c8",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "width": {
+              "unit": "%",
+              "size": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "8ded5abc",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 40
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "c2611afb",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "A retrospective catalog of residential landmarks, retail brand environments, and bespoke modular details sculpted across Europe and Asia between 2018 and 2026.",
+                "css_classes": "arche-lead"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecb59c8b",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch"
+      },
+      "elements": [
+        {
+          "id": "10d67f04",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "\n<div style=\"display: flex; justify-content: center; gap: 30px; border-top: 1px solid var(--arche-soft-grey); border-bottom: 1px solid var(--arche-soft-grey); padding: 1.5rem 0; font-family: 'Syne', sans-serif; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em;\">\n    <a href=\"#\" style=\"color: var(--arche-obsidian); text-decoration: none; border-bottom: 2px solid var(--arche-champagne); padding-bottom: 5px;\">All Projects</a>\n    <a href=\"#\" style=\"color: var(--arche-text-muted); text-decoration: none; padding-bottom: 5px; transition: color 0.3s;\" onmouseover=\"this.style.color='var(--arche-obsidian)'\" onmouseout=\"this.style.color='var(--arche-text-muted)'\">Residential</a>\n    <a href=\"#\" style=\"color: var(--arche-text-muted); text-decoration: none; padding-bottom: 5px; transition: color 0.3s;\" onmouseover=\"this.style.color='var(--arche-obsidian)'\" onmouseout=\"this.style.color='var(--arche-text-muted)'\">Commercial</a>\n    <a href=\"#\" style=\"color: var(--arche-text-muted); text-decoration: none; padding-bottom: 5px; transition: color 0.3s;\" onmouseover=\"this.style.color='var(--arche-obsidian)'\" onmouseout=\"this.style.color='var(--arche-text-muted)'\">Atelier Furniture</a>\n</div>\n"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "e3296896",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch"
+      },
+      "elements": [
+        {
+          "id": "725b99fd",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "\n<div class=\"arche-horizontal-scroll-sec\">\n    <div class=\"arche-pin-wrap\">\n        \n        <!-- Slide 1: Introduction Title -->\n        <div class=\"arche-horizontal-item\" style=\"width: 45vw; max-width: 450px; flex-shrink: 0; margin-right: 12vw;\">\n            <span class=\"arche-subtitle-caps\" style=\"color: var(--arche-champagne);\">03 / Works Gallery</span>\n            <h2 class=\"arche-reveal-text\" style=\"font-size: clamp(3.5rem, 6vw, 6rem); font-weight: 300; margin: 1rem 0 2rem 0; color: #FFFFFF; font-family: 'Cormorant Garamond', serif; line-height: 1.1;\">Monuments of Silence.</h2>\n            <p style=\"color: var(--arche-text-muted); font-size: 1.15rem; line-height: 1.7; font-weight: 300; font-family: 'Plus Jakarta Sans', sans-serif;\">Scroll vertically to sweep horizontally across our flagships\u2014penthouse projects and seafront estates constructed across Europe and Asia.</p>\n        </div>\n\n        <!-- Slide 2: Villa Noir (Geneva, Switzerland) -->\n        <div class=\"arche-horizontal-item\" style=\"width: 75vw; max-width: 800px; flex-shrink: 0; margin-right: 12vw;\">\n            <div class=\"arche-image-wrapper\" style=\"aspect-ratio: 16 / 10; width: 100%;\">\n                <img src=\"https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80\" alt=\"Villa Noir\" style=\"width: 100%; object-fit: cover;\">\n            </div>\n            <div style=\"margin-top: 1.8rem; display: flex; justify-content: space-between; align-items: flex-start;\">\n                <div>\n                    <h3 style=\"font-size: 2.2rem; margin: 0 0 0.3rem 0; color: #FFFFFF; font-family: 'Cormorant Garamond', serif; font-weight: 300;\">Villa Noir</h3>\n                    <span class=\"arche-subtitle-caps\" style=\"font-size: 0.65rem; color: var(--arche-text-muted);\">Geneva, Switzerland \u2014 Residential</span>\n                </div>\n                <a href=\"/portfolio\" class=\"arche-btn-outline\" style=\"color: #FFFFFF; border-color: rgba(255, 255, 255, 0.2); padding: 0.8rem 1.8rem; font-size: 0.75rem;\">View Commission</a>\n            </div>\n        </div>\n\n        <!-- Slide 3: Atelier Alabaster (Paris, France) -->\n        <div class=\"arche-horizontal-item\" style=\"width: 55vw; max-width: 600px; flex-shrink: 0; margin-right: 12vw;\">\n            <div class=\"arche-image-wrapper\" style=\"aspect-ratio: 3 / 4; width: 100%;\">\n                <img src=\"https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80\" alt=\"Atelier Alabaster\" style=\"width: 100%; object-fit: cover;\">\n            </div>\n            <div style=\"margin-top: 1.8rem; color: #FFFFFF;\">\n                <h3 style=\"font-size: 2.2rem; margin: 0 0 0.3rem 0; color: #FFFFFF; font-family: 'Cormorant Garamond', serif; font-weight: 300;\">Atelier Alabaster</h3>\n                <span class=\"arche-subtitle-caps\" style=\"font-size: 0.65rem; color: var(--arche-text-muted);\">Paris, France \u2014 Bespoke Penthouse</span>\n                <div style=\"margin-top: 1rem;\">\n                    <a href=\"/portfolio\" class=\"arche-btn-underline\" style=\"color: #FFFFFF;\">Explore Details</a>\n                </div>\n            </div>\n        </div>\n\n        <!-- Slide 4: The Brutalist Sanctuary (Kyoto, Japan) -->\n        <div class=\"arche-horizontal-item\" style=\"width: 55vw; max-width: 600px; flex-shrink: 0; margin-right: 12vw;\">\n            <div class=\"arche-image-wrapper\" style=\"aspect-ratio: 3 / 4; width: 100%;\">\n                <img src=\"https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=800&q=80\" alt=\"Brutalist Sanctuary\" style=\"width: 100%; object-fit: cover;\">\n            </div>\n            <div style=\"margin-top: 1.8rem; color: #FFFFFF;\">\n                <h3 style=\"font-size: 2.2rem; margin: 0 0 0.3rem 0; color: #FFFFFF; font-family: 'Cormorant Garamond', serif; font-weight: 300;\">The Brutalist Sanctuary</h3>\n                <span class=\"arche-subtitle-caps\" style=\"font-size: 0.65rem; color: var(--arche-text-muted);\">Kyoto, Japan \u2014 Tea House & Gardens</span>\n                <div style=\"margin-top: 1rem;\">\n                    <a href=\"/portfolio\" class=\"arche-btn-underline\" style=\"color: #FFFFFF;\">Explore Details</a>\n                </div>\n            </div>\n        </div>\n\n        <!-- Slide 5: L'horizon Villa (Amalfi Coast, Italy) -->\n        <div class=\"arche-horizontal-item\" style=\"width: 75vw; max-width: 800px; flex-shrink: 0; margin-right: 12vw;\">\n            <div class=\"arche-image-wrapper\" style=\"aspect-ratio: 16 / 10; width: 100%;\">\n                <img src=\"https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80\" alt=\"L'horizon Villa\" style=\"width: 100%; object-fit: cover;\">\n            </div>\n            <div style=\"margin-top: 1.8rem; display: flex; justify-content: space-between; align-items: flex-start; color: #FFFFFF;\">\n                <div>\n                    <h3 style=\"font-size: 2.2rem; margin: 0 0 0.3rem 0; color: #FFFFFF; font-family: 'Cormorant Garamond', serif; font-weight: 300;\">L'horizon Villa</h3>\n                    <span class=\"arche-subtitle-caps\" style=\"font-size: 0.65rem; color: var(--arche-text-muted);\">Amalfi Coast, Italy \u2014 Seafront Estate</span>\n                </div>\n                <a href=\"/portfolio\" class=\"arche-btn-outline\" style=\"color: #FFFFFF; border-color: rgba(255, 255, 255, 0.2); padding: 0.8rem 1.8rem; font-size: 0.75rem;\">View Commission</a>\n            </div>\n        </div>\n        \n    </div>\n</div>\n"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

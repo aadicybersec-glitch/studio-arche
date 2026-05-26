@@ -1,0 +1,161 @@
+/**
+ * Studio Arche — About Page Styles
+ */
+
+/* Philosophy Cards */
+.sa-philosophy-card {
+  padding: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.02);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: border-color var(--sa-duration-medium) var(--sa-ease-smooth),
+              background-color var(--sa-duration-medium) var(--sa-ease-smooth);
+}
+
+.sa-philosophy-card:hover {
+  border-color: rgba(197, 168, 128, 0.3);
+  background-color: rgba(197, 168, 128, 0.05);
+}
+
+.sa-philosophy-card__num {
+  font-family: var(--sa-font-display);
+  font-size: 5rem;
+  line-height: 1;
+  color: var(--sa-champagne);
+  margin-bottom: 2rem;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.sa-philosophy-card__title {
+  font-size: var(--sa-text-xl);
+  margin-bottom: 1rem;
+}
+
+.sa-philosophy-card__desc {
+  color: var(--sa-warm-grey);
+}
+
+/* Team Cards */
+.sa-team-card {
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 992px) {
+  .sa-team-card:nth-child(2) {
+    transform: translateY(clamp(2rem, 4vw, 5rem));
+  }
+}
+
+.sa-team-card__img {
+  filter: grayscale(100%);
+  transition: filter var(--sa-duration-medium) var(--sa-ease-smooth),
+              transform var(--sa-duration-slow) var(--sa-ease-smooth);
+}
+
+.sa-team-card:hover .sa-team-card__img {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+.sa-team-card__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  background: linear-gradient(to top, rgba(10, 10, 10, 0.8) 0%, transparent 100%);
+  color: var(--sa-white);
+  transform: translateY(100%);
+  transition: transform var(--sa-duration-medium) var(--sa-ease-snap);
+}
+
+.sa-team-card:hover .sa-team-card__info {
+  transform: translateY(0);
+}
+
+.sa-team-card__name {
+  font-size: var(--sa-text-xl);
+  color: var(--sa-white);
+  margin-bottom: 0.2rem;
+}
+
+.sa-team-card__role {
+  font-family: var(--sa-font-accent);
+  font-size: var(--sa-text-xs);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sa-champagne);
+}
+
+/* Timeline */
+.sa-timeline {
+  position: relative;
+  padding-left: 3rem;
+}
+
+.sa-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background-color: var(--sa-champagne);
+  opacity: 0.3;
+}
+
+.sa-timeline__item {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.sa-timeline__item:last-child {
+  margin-bottom: 0;
+}
+
+.sa-timeline__item::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: -3rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--sa-cream);
+  border: 2px solid var(--sa-champagne);
+  transform: translateX(-50%);
+  transition: background-color var(--sa-duration-fast) var(--sa-ease-smooth);
+}
+
+.sa-timeline__item:hover::before {
+  background-color: var(--sa-champagne);
+}
+
+.sa-timeline__year {
+  font-family: var(--sa-font-accent);
+  font-size: var(--sa-text-lg);
+  font-weight: 700;
+  color: var(--sa-champagne);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+
+.sa-timeline__title {
+  font-size: var(--sa-text-xl);
+  margin-bottom: 0.5rem;
+}
+
+.sa-timeline__desc {
+  color: var(--sa-slate);
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .sa-philosophy-card { padding: 2rem; }
+  .sa-team-card__info { transform: translateY(0); }
+  .sa-team-card__img { filter: grayscale(0%); }
+}

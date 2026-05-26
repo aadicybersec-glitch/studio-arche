@@ -1,0 +1,168 @@
+{
+  "title": "Studio Arche Services",
+  "type": "page",
+  "content": [
+    {
+      "id": "66c35141",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding"
+      },
+      "elements": [
+        {
+          "id": "f5b51fa1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "02 / Capabilities",
+            "header_size": "span",
+            "align": "center",
+            "css_classes": "arche-subtitle-caps"
+          },
+          "elements": []
+        },
+        {
+          "id": "0194e95c",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Sculpting Space into Functional Poetry.",
+            "header_size": "h1",
+            "align": "center",
+            "css_classes": "arche-reveal-text"
+          },
+          "elements": []
+        },
+        {
+          "id": "c4390b64",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "We operate at the intersection of architecture, interior styling, and structural engineering. Our services are fully bespoke, providing comprehensive design, drafting, procurement, and physical execution.",
+            "css_classes": "arche-lead arche-reveal-text",
+            "align": "center"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "102295e8",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding"
+      },
+      "elements": [
+        {
+          "id": "22da9d8b",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "\n<div class=\"arche-grid-container\" style=\"row-gap: 50px;\">\n    <div class=\"arche-grid-col-6\">\n        <div class=\"arche-image-wrapper\" style=\"aspect-ratio: 16/10;\">\n            <img src=\"https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=80\" alt=\"Residential Interiors\">\n        </div>\n        <div style=\"margin-top: 1.5rem; padding-right: 2rem;\">\n            <div style=\"display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--arche-soft-grey); padding-bottom: 0.5rem; margin-bottom: 1rem;\">\n                <h3 style=\"font-size: 1.8rem; margin: 0;\">Residential Architecture</h3>\n                <span class=\"arche-subtitle-caps\" style=\"font-size: 0.6rem; color: var(--arche-champagne); margin: 0;\">01 / Scope</span>\n            </div>\n            <p style=\"color: var(--arche-text-dark); font-weight: 300; font-size: 0.95rem;\">Full-scale interior architecture for luxury penthouses, custom villas, and private estates. Includes spatial planning, lighting layout, and electrical mapping.</p>\n            <div style=\"font-family: 'Syne', sans-serif; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--arche-text-muted); display: flex; gap: 20px; margin-top: 1rem;\">\n                <span>Type: Full-scale</span>\n                <span>Timeframe: 16-24 weeks</span>\n            </div>\n        </div>\n    </div>\n    <div class=\"arche-grid-col-6\">\n        <div class=\"arche-image-wrapper\" style=\"aspect-ratio: 16/10;\">\n            <img src=\"https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=80\" alt=\"Commercial Interiors\">\n        </div>\n        <div style=\"margin-top: 1.5rem; padding-right: 2rem;\">\n            <div style=\"display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--arche-soft-grey); padding-bottom: 0.5rem; margin-bottom: 1rem;\">\n                <h3 style=\"font-size: 1.8rem; margin: 0;\">Commercial & Retail</h3>\n                <span class=\"arche-subtitle-caps\" style=\"font-size: 0.6rem; color: var(--arche-champagne); margin: 0;\">02 / Scope</span>\n            </div>\n            <p style=\"color: var(--arche-text-dark); font-weight: 300; font-size: 0.95rem;\">High-end commercial spaces, luxury boutiques, art galleries, and workspace studios designed to curate user experience and reflect corporate brand identity.</p>\n            <div style=\"font-family: 'Syne', sans-serif; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--arche-text-muted); display: flex; gap: 20px; margin-top: 1rem;\">\n                <span>Type: Brand Environments</span>\n                <span>Timeframe: Variable</span>\n            </div>\n        </div>\n    </div>\n    <div class=\"arche-grid-col-4\">\n        <div class=\"arche-image-wrapper\" style=\"aspect-ratio: 4/5;\">\n            <img src=\"https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80\" alt=\"Modular Kitchen\">\n        </div>\n        <div style=\"margin-top: 1.2rem;\">\n            <h3 style=\"font-size: 1.5rem; margin: 0 0 0.5rem 0;\">Bespoke Kitchens</h3>\n            <p style=\"color: var(--arche-text-muted); font-size: 0.9rem; font-weight: 300;\">Ergonomic German-engineered modular fittings integrated seamlessly with marble slabs and custom hidden cabinetry.</p>\n            <span class=\"arche-subtitle-caps\" style=\"font-size: 0.6rem; margin-top: 0.8rem;\">03 / System</span>\n        </div>\n    </div>\n    <div class=\"arche-grid-col-4\">\n        <div class=\"arche-image-wrapper\" style=\"aspect-ratio: 4/5;\">\n            <img src=\"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80\" alt=\"3D Visualization\">\n        </div>\n        <div style=\"margin-top: 1.2rem;\">\n            <h3 style=\"font-size: 1.5rem; margin: 0 0 0.5rem 0;\">3D Renderings & BIM</h3>\n            <p style=\"color: var(--arche-text-muted); font-size: 0.9rem; font-weight: 300;\">Photorealistic path-traced rendering walkthroughs and BIM blueprints so you can experience your volume before break-ground.</p>\n            <span class=\"arche-subtitle-caps\" style=\"font-size: 0.6rem; margin-top: 0.8rem;\">04 / BIM</span>\n        </div>\n    </div>\n    <div class=\"arche-grid-col-4\">\n        <div class=\"arche-image-wrapper\" style=\"aspect-ratio: 4/5;\">\n            <img src=\"https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80\" alt=\"Custom Furniture\">\n        </div>\n        <div style=\"margin-top: 1.2rem;\">\n            <h3 style=\"font-size: 1.5rem; margin: 0 0 0.5rem 0;\">Artisan Furniture</h3>\n            <p style=\"color: var(--arche-text-muted); font-size: 0.9rem; font-weight: 300;\">Sartorial chairs, bespoke dining slabs, and structural light fixtures drawn in-house and hand-forged by master carpenters.</p>\n            <span class=\"arche-subtitle-caps\" style=\"font-size: 0.6rem; margin-top: 0.8rem;\">05 / Atelier</span>\n        </div>\n    </div>\n</div>\n"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "1514aed5",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding arche-dark-section"
+      },
+      "elements": [
+        {
+          "id": "3c87977d",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 35
+            }
+          },
+          "elements": [
+            {
+              "id": "4c65d2fd",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "04 / Execution FAQ",
+                "header_size": "span",
+                "align": "left",
+                "css_classes": "arche-subtitle-caps"
+              },
+              "elements": []
+            },
+            {
+              "id": "9391b5d1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Resolving our blueprint parameters.",
+                "header_size": "h2",
+                "align": "left",
+                "css_classes": "arche-reveal-text"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "282718d1",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "width": {
+              "unit": "%",
+              "size": 60
+            }
+          },
+          "elements": [
+            {
+              "id": "e9a9f289",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "What is your average project lead time?",
+                    "tab_content": "Typically, a full-scale residential commission requires 16 to 24 weeks from site analysis to spatial reveal."
+                  },
+                  {
+                    "tab_title": "Do you handle contracting and procurement?",
+                    "tab_content": "Yes, we operate as a full-service turnkey agency. We procure the custom marble slabs, manage architectural contractors, and curate on-site assembly."
+                  },
+                  {
+                    "tab_title": "Can you work with client-specified architects?",
+                    "tab_content": "Absolutely. We regularly coordinate with executive architects and structural engineers to ensure interior skeletons coordinate perfectly with the exterior envelope."
+                  }
+                ],
+                "title_html_tag": "h4"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+/**
+ * Studio Arche — Page Transition Styles
+ */
+
+.sa-transition-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999998;
+  pointer-events: none;
+  display: flex;
+}
+
+.sa-transition-overlay__col {
+  flex: 1;
+  background-color: var(--sa-obsidian);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  will-change: transform;
+}
+
+/* Page enter/leave base */
+.sa-page-content {
+  will-change: opacity, transform;
+}
+
+.sa-page-content.is-leaving {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.4s var(--sa-ease-smooth),
+              transform 0.4s var(--sa-ease-smooth);
+}
+
+.sa-page-content.is-entering {
+  opacity: 0;
+  transform: translateY(30px);
+}

@@ -1,0 +1,339 @@
+{
+  "title": "Studio Arche About",
+  "type": "page",
+  "content": [
+    {
+      "id": "2eb122f7",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding"
+      },
+      "elements": [
+        {
+          "id": "48f04a77",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 45
+            }
+          },
+          "elements": [
+            {
+              "id": "b10e16e0",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "01 / Creative Directors",
+                "header_size": "span",
+                "align": "left",
+                "css_classes": "arche-subtitle-caps"
+              },
+              "elements": []
+            },
+            {
+              "id": "ea735199",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Crafting spatial silence since 2014.",
+                "header_size": "h1",
+                "align": "left",
+                "css_classes": "arche-reveal-text"
+              },
+              "elements": []
+            },
+            {
+              "id": "87f6e162",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Founded by architectural visionaries, Studio Arche was born out of a desire to purge interiors of clutter and restore their raw emotional power. We approach spaces as living sculptures.",
+                "css_classes": "arche-lead arche-reveal-text"
+              },
+              "elements": []
+            },
+            {
+              "id": "9f960f68",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "We don't buy off-the-shelf. We curate. We partner with local quarry artisans, master carpenters, and avant-garde lighting designers to ensure that every texture, shadow, and joint is custom engineered to resonate with the occupants."
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "acfbf121",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "width": {
+              "unit": "%",
+              "size": 50
+            }
+          },
+          "elements": [
+            {
+              "id": "a4bd4db4",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "\n<div class=\"arche-image-wrapper\" style=\"aspect-ratio: 4/5; width: 100%;\">\n    <img src=\"https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=80\" alt=\"Studio Drawing\" style=\"border-radius: 0px;\">\n</div>\n"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8cb60a6e",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding arche-dark-section"
+      },
+      "elements": [
+        {
+          "id": "b3eac88a",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 30
+            }
+          },
+          "elements": [
+            {
+              "id": "717a2e56",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"color: var(--arche-champagne); font-size: 3.5rem;\">I</span>",
+                "header_size": "h2",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "0e8ea105",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Tactile Materiality",
+                "header_size": "h3",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "d4462f1f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "We source organic, unprocessed materials that age with dignity. Unpolished travertine, oxidized bronze, raw slate, and porous timber."
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "0acc1cbf",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 30
+            }
+          },
+          "elements": [
+            {
+              "id": "9b3a3a69",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"color: var(--arche-champagne); font-size: 3.5rem;\">II</span>",
+                "header_size": "h2",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "7c15fed5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Architectural Proportion",
+                "header_size": "h3",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "55420465",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Balancing weight, height, and scale to create a fluid, natural flow. Our structures are mathematical, aligning perfectly with human movements."
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bfb46ed0",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 30
+            }
+          },
+          "elements": [
+            {
+              "id": "54b7ec06",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"color: var(--arche-champagne); font-size: 3.5rem;\">III</span>",
+                "header_size": "h2",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "e733889c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sculptural Light",
+                "header_size": "h3",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "be22f486",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "We treat light as a physical material. By designing shadow plays, skylight captures, and soft indirect glows, we carve spatial mood."
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fcc17bcd",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding"
+      },
+      "elements": [
+        {
+          "id": "ba3eabda",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "02 / The Guild",
+            "header_size": "span",
+            "align": "center",
+            "css_classes": "arche-subtitle-caps"
+          },
+          "elements": []
+        },
+        {
+          "id": "0d756563",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Our Spatial Visionaries",
+            "header_size": "h2",
+            "align": "center",
+            "css_classes": "arche-reveal-text"
+          },
+          "elements": []
+        },
+        {
+          "id": "50ab60a4",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "\n<div class=\"arche-grid-container\" style=\"margin-top: 3rem;\">\n    <div class=\"arche-grid-col-4\">\n        <div class=\"arche-luxury-card\">\n            <div class=\"arche-card-bg\" style=\"background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80'); filter: grayscale(100%);\"></div>\n            <div class=\"arche-card-content\">\n                <span class=\"arche-subtitle-caps\" style=\"font-size: 0.65rem; margin-bottom: 0.3rem;\">Co-Founder & Director</span>\n                <h3>Elena Rostova</h3>\n                <div class=\"arche-card-hidden-text\">Architectural scholar with 14 years shaping minimal high-end residential interiors.</div>\n            </div>\n        </div>\n    </div>\n    <div class=\"arche-grid-col-4\">\n        <div class=\"arche-luxury-card\">\n            <div class=\"arche-card-bg\" style=\"background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80'); filter: grayscale(100%);\"></div>\n            <div class=\"arche-card-content\">\n                <span class=\"arche-subtitle-caps\" style=\"font-size: 0.65rem; margin-bottom: 0.3rem;\">Lead Architect</span>\n                <h3>Julian Vane</h3>\n                <div class=\"arche-card-hidden-text\">Bespoke spatial strategist specializing in concrete-timber structural integration.</div>\n            </div>\n        </div>\n    </div>\n    <div class=\"arche-grid-col-4\">\n        <div class=\"arche-luxury-card\">\n            <div class=\"arche-card-bg\" style=\"background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80'); filter: grayscale(100%);\"></div>\n            <div class=\"arche-card-content\">\n                <span class=\"arche-subtitle-caps\" style=\"font-size: 0.65rem; margin-bottom: 0.3rem;\">Lighting Designer</span>\n                <h3>Anya Thorne</h3>\n                <div class=\"arche-card-hidden-text\">Master of lumens and shadow structures. Formulating custom spatial mood guides.</div>\n            </div>\n        </div>\n    </div>\n</div>\n"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "e1ac8e1e",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding",
+        "background_background": "classic",
+        "background_color": "#EAE3D8"
+      },
+      "elements": [
+        {
+          "id": "e5176575",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Featured In",
+            "header_size": "span",
+            "align": "center",
+            "css_classes": "arche-subtitle-caps"
+          },
+          "elements": []
+        },
+        {
+          "id": "7ee1bef7",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "\n<div style=\"display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; gap: 40px; margin-top: 1.5rem; opacity: 0.6;\">\n    <span style=\"font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; font-style: italic; letter-spacing: -0.02em; font-weight: 300; color: #0F0F0F;\">Architectural Digest</span>\n    <span style=\"font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; font-weight: 400; text-transform: uppercase; letter-spacing: 0.1em; color: #0F0F0F;\">Elle Decor</span>\n    <span style=\"font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; font-weight: 700; font-style: italic; letter-spacing: -0.04em; color: #0F0F0F;\">FRAME</span>\n    <span style=\"font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; font-weight: 300; text-transform: lowercase; letter-spacing: 0.05em; color: #0F0F0F;\">Wallpaper*</span>\n</div>\n"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

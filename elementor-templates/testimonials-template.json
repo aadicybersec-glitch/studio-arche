@@ -1,0 +1,76 @@
+{
+  "title": "Studio Arche Testimonials",
+  "type": "page",
+  "content": [
+    {
+      "id": "e2b10c05",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding"
+      },
+      "elements": [
+        {
+          "id": "61fb6192",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "04 / Patron Testimonies",
+            "header_size": "span",
+            "align": "center",
+            "css_classes": "arche-subtitle-caps"
+          },
+          "elements": []
+        },
+        {
+          "id": "e2f78bcc",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Inhabited Silence.",
+            "header_size": "h1",
+            "align": "center",
+            "css_classes": "arche-reveal-text"
+          },
+          "elements": []
+        },
+        {
+          "id": "6e07d222",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Space is not complete until it is lived in. Read the reflections of our patrons who inhabit the sanctuaries we have carved, ranging from private estate collectors to commercial retail innovators.",
+            "css_classes": "arche-lead arche-reveal-text",
+            "align": "center"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "ba878823",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding"
+      },
+      "elements": [
+        {
+          "id": "4458c154",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "\n<div class=\"arche-grid-container\" style=\"row-gap: 40px;\">\n    <div class=\"arche-grid-col-6\">\n        <div class=\"arche-testimonial-card\">\n            <div>\n                <div class=\"arche-quote-mark\">\u201c</div>\n                <div style=\"color: var(--arche-champagne); font-size: 0.8rem; letter-spacing: 2px; margin-bottom: 1.5rem;\">\u2605\u2605\u2605\u2605\u2605</div>\n                <p class=\"arche-testimonial-text\">Studio Arche did not just design a house; they shaped a frame for my life. Waking up in Villa Noir and watching the sunrise interact with the raw stone walls is an emotional experience. Their restraint is pure genius.</p>\n            </div>\n            <div class=\"arche-testimonial-author\" style=\"margin-top: 2rem;\">\n                <div style=\"width: 44px; height: 44px; border-radius: 50%; background-color: var(--arche-soft-grey); display: flex; align-items: center; justify-content: center; font-family: 'Syne', sans-serif; font-size: 0.75rem; font-weight: 700; color: var(--arche-obsidian);\">SR</div>\n                <div class=\"arche-author-info\">\n                    <h4>Stephan & Ren\u00e9e</h4>\n                    <p>Patrons, Villa Noir Geneva</p>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"arche-grid-col-6\">\n        <div class=\"arche-testimonial-card\">\n            <div>\n                <div class=\"arche-quote-mark\">\u201c</div>\n                <div style=\"color: var(--arche-champagne); font-size: 0.8rem; letter-spacing: 2px; margin-bottom: 1.5rem;\">\u2605\u2605\u2605\u2605\u2605</div>\n                <p class=\"arche-testimonial-text\">For our Parisian retail salon, we wanted a space that felt like an art gallery rather than a shop. Studio Arche crafted an environment of absolute luxury. Our foot traffic and brand prestige have soared.</p>\n            </div>\n            <div class=\"arche-testimonial-author\" style=\"margin-top: 2rem;\">\n                <div style=\"width: 44px; height: 44px; border-radius: 50%; background-color: var(--arche-soft-grey); display: flex; align-items: center; justify-content: center; font-family: 'Syne', sans-serif; font-size: 0.75rem; font-weight: 700; color: var(--arche-obsidian);\">ML</div>\n                <div class=\"arche-author-info\">\n                    <h4>Marc Laurent</h4>\n                    <p>Creative Director, Maison Noir Paris</p>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"arche-grid-col-6\">\n        <div class=\"arche-testimonial-card\">\n            <div>\n                <div class=\"arche-quote-mark\">\u201c</div>\n                <div style=\"color: var(--arche-champagne); font-size: 0.8rem; letter-spacing: 2px; margin-bottom: 1.5rem;\">\u2605\u2605\u2605\u2605\u2605</div>\n                <p class=\"arche-testimonial-text\">Their attention to detail is staggering. The way the custom bronze joints in the kitchen cabinets slide shut silently is a testament to their obsession with engineering. Absolutely flawless execution.</p>\n            </div>\n            <div class=\"arche-testimonial-author\" style=\"margin-top: 2rem;\">\n                <div style=\"width: 44px; height: 44px; border-radius: 50%; background-color: var(--arche-soft-grey); display: flex; align-items: center; justify-content: center; font-family: 'Syne', sans-serif; font-size: 0.75rem; font-weight: 700; color: var(--arche-obsidian);\">TK</div>\n                <div class=\"arche-author-info\">\n                    <h4>Takeshi K.</h4>\n                    <p>Owner, Brutalist Sanctuary Kyoto</p>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"arche-grid-col-6\">\n        <div class=\"arche-testimonial-card\">\n            <div>\n                <div class=\"arche-quote-mark\">\u201c</div>\n                <div style=\"color: var(--arche-champagne); font-size: 0.8rem; letter-spacing: 2px; margin-bottom: 1.5rem;\">\u2605\u2605\u2605\u2605\u2605</div>\n                <p class=\"arche-testimonial-text\">The coordination across international borders was seamless. Studio Arche managed the Italian quarry procurement directly, taking a massive weight off our shoulders. The villa is a masterwork.</p>\n            </div>\n            <div class=\"arche-testimonial-author\" style=\"margin-top: 2rem;\">\n                <div style=\"width: 44px; height: 44px; border-radius: 50%; background-color: var(--arche-soft-grey); display: flex; align-items: center; justify-content: center; font-family: 'Syne', sans-serif; font-size: 0.75rem; font-weight: 700; color: var(--arche-obsidian);\">AD</div>\n                <div class=\"arche-author-info\">\n                    <h4>Alessia D.</h4>\n                    <p>Patron, L'horizon Villa Amalfi</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "title": "Studio Arche Contact",
+  "type": "page",
+  "content": [
+    {
+      "id": "ad40dfa9",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding"
+      },
+      "elements": [
+        {
+          "id": "8b71d539",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "fa7d9317",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "05 / Initiate Commission",
+                "header_size": "span",
+                "align": "left",
+                "css_classes": "arche-subtitle-caps"
+              },
+              "elements": []
+            },
+            {
+              "id": "0aa856c2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Let us craft your space.",
+                "header_size": "h1",
+                "align": "left",
+                "css_classes": "arche-reveal-text"
+              },
+              "elements": []
+            },
+            {
+              "id": "3422105a",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "We accept a limited number of residential and commercial commissions annually. Please outline your physical site coordinates, project scope, and aesthetic ambitions, and our directors will initiate contact.",
+                "css_classes": "arche-lead arche-reveal-text"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "4c8ae873",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "width": {
+              "unit": "%",
+              "size": 55
+            }
+          },
+          "elements": [
+            {
+              "id": "423fcfe2",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "\n<div class=\"arche-form\" style=\"margin-top: 2rem;\">\n    <form action=\"#\" method=\"POST\" id=\"arche-commission-form\" onsubmit=\"event.preventDefault(); alert('Commission Inquiry Submitted Successfully. Our curators will contact you within 48 hours.');\">\n        <div style=\"display: flex; gap: 30px; margin-bottom: 2rem;\">\n            <div style=\"flex: 1;\">\n                <label class=\"arche-subtitle-caps\" style=\"font-size: 0.6rem; display: block; margin-bottom: 5px;\">01 / Full Name</label>\n                <input type=\"text\" name=\"client_name\" placeholder=\"E.g., Julian Vane\" required>\n            </div>\n            <div style=\"flex: 1;\">\n                <label class=\"arche-subtitle-caps\" style=\"font-size: 0.6rem; display: block; margin-bottom: 5px;\">02 / Email Address</label>\n                <input type=\"email\" name=\"client_email\" placeholder=\"E.g., julian@vane.com\" required>\n            </div>\n        </div>\n        <div style=\"display: flex; gap: 30px; margin-bottom: 2rem;\">\n            <div style=\"flex: 1;\">\n                <label class=\"arche-subtitle-caps\" style=\"font-size: 0.6rem; display: block; margin-bottom: 5px;\">03 / Project Typology</label>\n                <input type=\"text\" name=\"project_type\" placeholder=\"E.g., Private Villa / Boutique Retail\">\n            </div>\n            <div style=\"flex: 1;\">\n                <label class=\"arche-subtitle-caps\" style=\"font-size: 0.6rem; display: block; margin-bottom: 5px;\">04 / Site Location</label>\n                <input type=\"text\" name=\"project_location\" placeholder=\"E.g., Geneva, Switzerland\">\n            </div>\n        </div>\n        <div style=\"margin-bottom: 2.5rem;\">\n            <label class=\"arche-subtitle-caps\" style=\"font-size: 0.6rem; display: block; margin-bottom: 5px;\">05 / Spatial Ambitions</label>\n            <textarea name=\"spatial_description\" placeholder=\"Describe the physical dimensions and emotional tone of the volume...\" required></textarea>\n        </div>\n        <div>\n            <button type=\"submit\" class=\"arche-btn-outline\" style=\"border-color: var(--arche-obsidian); padding: 1.2rem 3rem;\">\n                Submit Commission Inquiry\n            </button>\n        </div>\n    </form>\n</div>\n"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9e77bfa3",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "css_classes": "arche-section-padding arche-dark-section"
+      },
+      "elements": [
+        {
+          "id": "df904fc1",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 30
+            }
+          },
+          "elements": [
+            {
+              "id": "a40e3e2d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"color: var(--arche-champagne); font-size: 3rem;\">01</span>",
+                "header_size": "h2",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "a959b972",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Atelier Geneva",
+                "header_size": "h3",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "413ad96d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Rue du Rh\u00f4ne 14,<br>1204 Geneva, Switzerland<br>geneva@studioarche.com"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c52e0bbf",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 30
+            }
+          },
+          "elements": [
+            {
+              "id": "08206046",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"color: var(--arche-champagne); font-size: 3rem;\">02</span>",
+                "header_size": "h2",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "1c917b61",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Atelier Paris",
+                "header_size": "h3",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "4185593c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Rue Saint-Honor\u00e9 213,<br>75001 Paris, France<br>paris@studioarche.com"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "382a5de8",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 30
+            }
+          },
+          "elements": [
+            {
+              "id": "a6bc2ebb",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"color: var(--arche-champagne); font-size: 3rem;\">03</span>",
+                "header_size": "h2",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "9f012d9a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Atelier Tokyo",
+                "header_size": "h3",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "319943fd",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Minami-Aoyama 5-Chome,<br>Minato-ku, Tokyo, Japan<br>tokyo@studioarche.com"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "96b721a3",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch"
+      },
+      "elements": [
+        {
+          "id": "224d8e92",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "\n<div class=\"arche-map-wrapper\" style=\"width: 100%; height: 450px; overflow: hidden; filter: grayscale(100%) invert(90%) contrast(120%); -webkit-filter: grayscale(100%) invert(90%) contrast(120%);\">\n    <iframe \n        src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.309322232986!2d6.142220315579998!3d46.20439067911685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c64d852a4073d%3A0x6bd6c747863bf724!2sRue%20du%20Rh%C3%B4ne%2014%2C%201204%20Gen%C3%A8ve%2C%20Switzerland!5e0!3m2!1sen!2sus!4v1655000000000!5m2!1sen!2sus\" \n        width=\"100%\" \n        height=\"450\" \n        style=\"border:0;\" \n        allowfullscreen=\"\" \n        loading=\"lazy\" \n        referrerpolicy=\"no-referrer-when-downgrade\">\n    </iframe>\n</div>\n"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

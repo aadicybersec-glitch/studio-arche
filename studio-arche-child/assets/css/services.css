@@ -1,0 +1,327 @@
+/**
+ * Studio Arche — Services Page Styles
+ * Immersive service accordion, process steps, and call to action
+ */
+
+/* ==========================================================================
+   1. SERVICES HERO
+   ========================================================================== */
+.sa-services-hero {
+  padding-top: calc(var(--sa-nav-height) + var(--sa-space-xl));
+  padding-bottom: var(--sa-space-md);
+  display: flex;
+  align-items: center;
+}
+
+.sa-services-hero__intro {
+  max-width: 680px;
+}
+
+/* ==========================================================================
+   2. SERVICE ACCORDION
+   ========================================================================== */
+.sa-services-accordion-section {
+  padding-top: 0;
+  padding-bottom: var(--sa-space-xl);
+}
+
+.sa-services-accordion {
+  border-top: 1px solid rgba(10, 10, 10, 0.08);
+}
+
+.sa-accordion-item {
+  border-bottom: 1px solid rgba(10, 10, 10, 0.08);
+  overflow: hidden;
+  transition: background-color var(--sa-duration-medium) var(--sa-ease-smooth);
+}
+
+.sa-accordion-item.is-active {
+  background-color: rgba(197, 168, 128, 0.03);
+}
+
+/* Header */
+.sa-accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.2rem 0;
+  background: transparent;
+  border: none;
+  cursor: none;
+  text-align: left;
+  outline: none;
+}
+
+.sa-accordion-header__left {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.5rem, 4vw, 4rem);
+}
+
+.sa-accordion-num {
+  font-family: var(--sa-font-display);
+  font-size: var(--sa-text-xl);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--sa-champagne);
+  line-height: 1;
+  opacity: 0.8;
+  transition: transform var(--sa-duration-medium) var(--sa-ease-smooth);
+}
+
+.sa-accordion-title {
+  font-family: var(--sa-font-display);
+  font-size: var(--sa-text-2xl);
+  font-weight: 300;
+  color: var(--sa-obsidian);
+  transition: color var(--sa-duration-medium) var(--sa-ease-smooth),
+              transform var(--sa-duration-medium) var(--sa-ease-smooth);
+}
+
+.sa-accordion-header__right {
+  display: flex;
+  align-items: center;
+}
+
+.sa-accordion-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(10, 10, 10, 0.08);
+  border-radius: 50%;
+  color: var(--sa-slate);
+  transition: border-color var(--sa-duration-medium) var(--sa-ease-smooth),
+              color var(--sa-duration-medium) var(--sa-ease-smooth),
+              transform var(--sa-duration-medium) var(--sa-ease-smooth),
+              background-color var(--sa-duration-medium) var(--sa-ease-smooth);
+}
+
+/* Hover States */
+.sa-accordion-header:hover .sa-accordion-title {
+  color: var(--sa-champagne);
+  transform: translateX(10px);
+}
+
+.sa-accordion-header:hover .sa-accordion-num {
+  transform: scale(1.1);
+}
+
+.sa-accordion-header:hover .sa-accordion-arrow {
+  border-color: var(--sa-champagne);
+  color: var(--sa-white);
+  background-color: var(--sa-champagne);
+}
+
+/* Active State Arrow Toggle */
+.sa-accordion-item.is-active .sa-accordion-arrow {
+  transform: rotate(45deg);
+  border-color: var(--sa-obsidian);
+  color: var(--sa-white);
+  background-color: var(--sa-obsidian);
+}
+
+.sa-accordion-item.is-active .sa-accordion-title {
+  color: var(--sa-obsidian);
+  font-weight: 400;
+}
+
+/* Body */
+.sa-accordion-body {
+  height: 0;
+  overflow: hidden;
+  will-change: height;
+  transition: height var(--sa-duration-medium) var(--sa-ease-smooth);
+}
+
+.sa-accordion-item.is-active .sa-accordion-body {
+  /* JS will set specific height for smooth transition, fallback to auto in case */
+  height: auto;
+}
+
+.sa-accordion-content {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: var(--sa-gutter);
+  padding-bottom: 3.5rem;
+  align-items: center;
+}
+
+.sa-accordion-content__media {
+  position: relative;
+}
+
+.sa-accordion-content__media .sa-img-wrap {
+  border-radius: 4px;
+  box-shadow: 0 20px 40px rgba(10, 10, 10, 0.05);
+}
+
+.sa-accordion-content__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: var(--sa-gutter);
+}
+
+.sa-accordion-content__text p {
+  color: var(--sa-slate);
+}
+
+/* ==========================================================================
+   3. PROCESS SECTION (Dark Theme)
+   ========================================================================== */
+.sa-services-process {
+  background-color: var(--sa-obsidian);
+  padding: var(--sa-space-2xl) 0;
+}
+
+.sa-process-track {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+  align-items: start;
+  gap: 1.5rem;
+  margin-top: var(--sa-space-lg);
+}
+
+.sa-process-step {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.sa-process-step__num {
+  font-family: var(--sa-font-display);
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--sa-champagne);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  opacity: 0.8;
+  display: block;
+}
+
+.sa-process-step__title {
+  font-size: var(--sa-text-xl);
+  color: var(--sa-white);
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.sa-process-step__desc {
+  font-family: var(--sa-font-body);
+  font-size: var(--sa-text-sm);
+  color: var(--sa-warm-grey);
+  line-height: 1.8;
+}
+
+/* Connectors */
+.sa-process-connector {
+  height: 1px;
+  width: 100%;
+  min-width: 60px;
+  background: rgba(197, 168, 128, 0.15);
+  margin-top: 2rem;
+  position: relative;
+}
+
+.sa-process-connector span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background: var(--sa-champagne);
+  transition: width 1.5s var(--sa-ease-smooth);
+}
+
+.sa-process-track.is-visible .sa-process-connector span {
+  width: 100%;
+}
+
+/* ==========================================================================
+   4. SERVICES CTA
+   ========================================================================== */
+.sa-services-cta {
+  padding: var(--sa-space-2xl) 0;
+}
+
+.sa-services-cta__sub {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--sa-slate);
+}
+
+/* ==========================================================================
+   5. RESPONSIVE BREAPOINTS
+   ========================================================================== */
+
+/* Tablet Layout (<= 991px) */
+@media (max-width: 991px) {
+  .sa-accordion-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .sa-accordion-content__text {
+    padding-right: 0;
+  }
+
+  .sa-accordion-header {
+    padding: 1.8rem 0;
+  }
+
+  .sa-accordion-title {
+    font-size: var(--sa-text-xl);
+  }
+
+  .sa-process-track {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .sa-process-connector {
+    display: none;
+  }
+
+  .sa-process-step {
+    padding-left: 2rem;
+    border-left: 1px solid rgba(197, 168, 128, 0.15);
+  }
+
+  .sa-process-step__num {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Mobile Layout (<= 768px) */
+@media (max-width: 768px) {
+  .sa-services-hero {
+    padding-top: calc(var(--sa-nav-height) + var(--sa-space-lg));
+  }
+
+  .sa-accordion-header__left {
+    gap: 1.5rem;
+  }
+
+  .sa-accordion-num {
+    font-size: var(--sa-text-lg);
+  }
+
+  .sa-accordion-arrow {
+    width: 38px;
+    height: 38px;
+  }
+
+  .sa-services-process {
+    padding: var(--sa-space-xl) 0;
+  }
+
+  .sa-services-cta {
+    padding: var(--sa-space-xl) 0;
+  }
+}

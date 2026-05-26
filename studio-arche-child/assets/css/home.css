@@ -1,0 +1,112 @@
+/**
+ * Studio Arche — Home Page Styles
+ */
+
+/* Hero Scroll Indicator Bounce */
+.sa-scroll-indicator {
+  animation: sa-bounce 2s infinite;
+}
+
+@keyframes sa-bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0) translateX(-50%); }
+  40% { transform: translateY(-15px) translateX(-50%); }
+  60% { transform: translateY(-7px) translateX(-50%); }
+}
+
+/* Featured Projects Cards */
+.sa-project-card {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.sa-project-card__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10,10,10,0.8) 0%, transparent 50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 3rem;
+  color: var(--sa-white);
+  opacity: 0;
+  transition: opacity var(--sa-duration-medium) var(--sa-ease-smooth);
+}
+
+.sa-project-card:hover .sa-project-card__overlay {
+  opacity: 1;
+}
+
+.sa-project-card__cat {
+  font-family: var(--sa-font-accent);
+  font-size: var(--sa-text-xs);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--sa-champagne);
+  margin-bottom: 0.5rem;
+  transform: translateY(20px);
+  transition: transform var(--sa-duration-medium) var(--sa-ease-smooth);
+}
+
+.sa-project-card__title {
+  font-family: var(--sa-font-display);
+  font-size: var(--sa-text-2xl);
+  font-weight: 300;
+  margin: 0;
+  transform: translateY(20px);
+  transition: transform var(--sa-duration-medium) var(--sa-ease-smooth) 0.05s;
+}
+
+.sa-project-card:hover .sa-project-card__cat,
+.sa-project-card:hover .sa-project-card__title {
+  transform: translateY(0);
+}
+
+.sa-project-card--large {
+  width: 100%;
+  aspect-ratio: 16 / 7;
+}
+
+.sa-project-card--offset {
+  margin-top: var(--sa-space-xl);
+}
+
+@media (max-width: 991px) {
+  .sa-project-card--large {
+    aspect-ratio: 16 / 9;
+  }
+  .sa-project-card--offset {
+    margin-top: 0;
+  }
+  .sa-project-card__overlay {
+    opacity: 1;
+    padding: 1.5rem;
+    background: linear-gradient(to top, rgba(10,10,10,0.9) 0%, transparent 70%);
+  }
+  .sa-project-card__cat, .sa-project-card__title {
+    transform: translateY(0);
+  }
+}
+
+/* Testimonial Marquee Specifics */
+.sa-testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sa-testimonial__quote {
+  font-family: var(--sa-font-display);
+  font-style: italic;
+  font-size: var(--sa-text-2xl);
+  color: var(--sa-white);
+  line-height: 1.3;
+}
+
+.sa-testimonial__author {
+  font-family: var(--sa-font-accent);
+  font-size: var(--sa-text-sm);
+  letter-spacing: 0.1em;
+  color: var(--sa-champagne);
+  text-transform: uppercase;
+}
